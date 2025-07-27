@@ -7,13 +7,26 @@ dependencies:
     - field.field.paragraph.kingly_paragraph_button.field_button_link
     - field.field.paragraph.kingly_paragraph_button.field_button_style
     - paragraphs.paragraphs_type.kingly_paragraph_button
+  module:
+    - link
 id: paragraph.kingly_paragraph_button.default
 targetEntityType: paragraph
 bundle: kingly_paragraph_button
 mode: default
-content: {  }
+content:
+  field_button_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_button_icon_after: true
   field_button_icon_before: true
-  field_button_link: true
   field_button_style: true
