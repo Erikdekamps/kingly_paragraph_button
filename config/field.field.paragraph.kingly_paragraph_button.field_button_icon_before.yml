@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_icon_before
+    - paragraphs.paragraphs_type.kingly_paragraph_button
+id: paragraph.kingly_paragraph_button.field_button_icon_before
+field_name: field_button_icon_before
+entity_type: paragraph
+bundle: kingly_paragraph_button
+label: 'Icon before'
+description: 'Select an icon to display before the button text.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

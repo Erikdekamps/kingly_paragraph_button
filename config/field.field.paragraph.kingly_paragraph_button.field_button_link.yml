@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_link
+    - paragraphs.paragraphs_type.kingly_paragraph_button
+  module:
+    - link
+id: paragraph.kingly_paragraph_button.field_button_link
+field_name: field_button_link
+entity_type: paragraph
+bundle: kingly_paragraph_button
+label: 'Button Link'
+description: 'Enter the URL and link text for the button.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

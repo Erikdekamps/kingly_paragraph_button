@@ -1,0 +1,9 @@
+name: 'Kingly paragraph button'
+type: 'Site'
+description: 'Configures a Kingly button paragraph type and its fields.'
+install:
+  - paragraphs
+  - link
+  - options
+config:
+  strict: false

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_button
+label: Button
+icon_uuid: null
+icon_default: null
+description: 'A styled link with optional icons, rendered by a Single Directory Component.'
+behavior_plugins: {  }
